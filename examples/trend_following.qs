@@ -1,0 +1,6 @@
+STRATEGY TrendFollowing
+
+BUY IF price > EMA(20)
+SELL IF price < EMA(20)
+STOPLOSS 3%
+TAKEPROFIT 6%

@@ -1,0 +1,10 @@
+STRATEGY SimpleTrend
+
+BUY IF price < SMA(20)
+SELL IF price > EMA(20)
+
+STOPLOSS 2%
+TAKEPROFIT 5%
+
+
+

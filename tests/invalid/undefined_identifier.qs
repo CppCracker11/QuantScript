@@ -1,0 +1,2 @@
+STRATEGY Broken
+BUY IF abc > SMA(20)

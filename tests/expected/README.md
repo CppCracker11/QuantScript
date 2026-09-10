@@ -1,0 +1,1 @@
+Expected-output files are intentionally not byte-for-byte LLVM IR snapshots because LLVM textual IR can vary between supported LLVM releases. Tests instead validate successful/failed compilation and LLVM module verification.

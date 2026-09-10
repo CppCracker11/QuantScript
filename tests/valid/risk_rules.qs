@@ -1,0 +1,5 @@
+STRATEGY RiskRules
+BUY IF price <= SMA(20)
+SELL IF price >= EMA(20)
+STOPLOSS 1.5%
+TAKEPROFIT 10%
